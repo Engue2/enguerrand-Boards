@@ -1,0 +1,76 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    doctitle:
+        label: title
+        required: true
+        span: auto
+    
+    Etags:
+        label: Tag Document
+        type: taglist
+        mode: relation 
+        nameFrom: nametag
+    
+    pdf:
+        label: Lien PDF
+        span: auto
+        
+tabs:
+    fields:
+
+        resumer:
+            tab: Formation
+            label: Resumer
+            type: textarea
+            size: tiny
+        
+        duree:
+            tab: Formation
+            label: Durée
+            span: auto
+        
+        dejarea:
+            tab: Formation
+            label: Déja réalisé
+            span: auto
+        
+        dates:
+            tab: News Letter
+            label: Date
+            span: auto
+            
+        numnews:
+            tab: News Letter
+            label: N°news Letter
+            type: number
+            
+        skills:
+            tab: Domain Inter
+            label: Compétences
+            span: auto
+        
+        contenu:
+            tab: Domain Inter
+            label: Contenu
+            type: datepicker
+            mode: date
+            
+        quest:
+            tab: Expertise
+            label: Missions
+            span: auto
+        
+        exper:
+            tab: Expertise
+            label: Expertise
+            span: auto
+        
+        intitul:
+            tab: espacepro
+            label: Intitulé
+            type: textarea
+            size: tiny
+   

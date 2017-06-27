@@ -1,0 +1,24 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        invisible: true
+         
+    nametag:
+        label: Nom Tag
+        searchable: true
+        
+    created_at:
+        label: created
+        searchable: true
+        invisible: true
+        type: datetime
+
+    updated_at:
+        label: updated
+        searchable: true
+        invisible: true
+        type: datetime

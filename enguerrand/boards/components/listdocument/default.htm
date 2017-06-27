@@ -1,0 +1,35 @@
+valeur de la variable du fragement : {{ __SELF__.property('nameboard') }}
+<br>
+
+<table>
+<tr>
+{% for key,col in colin %}
+        {% set columsTrad = __SELF__.getProperty(col) %}
+        <th>{{ columsTrad }}</th>
+{% endfor %}
+</tr>
+{% for k,values in docin %}
+    <tr>
+    {% for key,col in colin %}
+        <td>{{ values[col] }}</td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+    
+<br><br><br><br>
+<style>
+    table {
+        border: medium solid #000000;
+        width: 100%;
+    }
+    tr {
+        border: thin solid #6495ed;
+        width: 100%;
+        text-align: left;
+    }
+    th,td {
+        border: thin solid #6495ed;
+        width: 10%;
+    }
+</style>

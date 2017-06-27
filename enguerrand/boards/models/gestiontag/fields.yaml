@@ -1,0 +1,8 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    nametag:
+        label: Nom du Tag
+        span: auto

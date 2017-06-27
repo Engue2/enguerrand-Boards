@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: List Document
+
+# Model Form Field configuration
+form: $/enguerrand/boards/models/listdocument/fields.yaml
+
+# Model Class name
+modelClass: Enguerrand\Boards\Models\ListDocument
+
+# Default redirect location
+defaultRedirect: enguerrand/boards/listdocument
+
+# Create page
+create:
+    title: Create List Document
+    redirect: enguerrand/boards/listdocument/update/:id
+    redirectClose: enguerrand/boards/listdocument
+
+# Update page
+update:
+    title: Edit List Document
+    redirect: enguerrand/boards/listdocument
+    redirectClose: enguerrand/boards/listdocument
+
+# Preview page
+preview:
+    title: Preview List Document

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Gestion Tag
+
+# Model Form Field configuration
+form: $/enguerrand/boards/models/gestiontag/fields.yaml
+
+# Model Class name
+modelClass: Enguerrand\Boards\Models\GestionTag
+
+# Default redirect location
+defaultRedirect: enguerrand/boards/gestiontag
+
+# Create page
+create:
+    title: Create Gestion Tag
+    redirect: enguerrand/boards/gestiontag/update/:id
+    redirectClose: enguerrand/boards/gestiontag
+
+# Update page
+update:
+    title: Edit Gestion Tag
+    redirect: enguerrand/boards/gestiontag
+    redirectClose: enguerrand/boards/gestiontag
+
+# Preview page
+preview:
+    title: Preview Gestion Tag

@@ -1,0 +1,5 @@
+1.0.1: 
+    - First version of Boards
+    - create_list_documents_table.php
+    - create_gestion_tags_table.php
+    - create_gestion_boards_table.php
